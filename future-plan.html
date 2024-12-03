@@ -17,33 +17,42 @@
         <div class="container"><a class="navbar-brand" href="#page-top">PW</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3 rounded" href="/">HOME</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/">HOME</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">ABOUT MARCO</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="passion.html">PASSION</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="family.html">FAMILY</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="journey.html">JOURNEY</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="future-plan.html">FUTURE PLAN</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link active py-3 px-0 px-lg-3 rounded" href="future-plan.html">FUTURE PLAN</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="text-center text-white bg-primary masthead">
+    <section>
         <div class="container">
-            <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col align-self-center"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/profile.png">
-                    <h1>Marco Ardinazo</h1>
-                    <hr class="star-light">
-                    <h2 class="fw-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
-                </div>
-                <div class="col align-self-center">
-                    <div class="row my-3 my-lg-1"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2Lumsra3kuU61wXkEKzKaK?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
-                    <div class="row">
-                        <div class="col"><img class="img-fluid rounded-3" src="assets/img/ae-quotes.jpg"></div>
-                    </div>
+            <h2 class="text-uppercase text-center text-secondary mb-0">FUTURE PLAN</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm-1" name="sentMessage">
+                        <div>
+                            <div class="mb-0 form-floating pb-2"><input class="form-control" type="text" id="name-1" required="" placeholder="Name"><label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div>
+                            <div class="mb-0 form-floating pb-2"><input class="form-control" type="email" id="email-1" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div>
+                            <div class="mb-0 form-floating pb-2"><input class="form-control" type="tel" id="phone-1" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div>
+                            <div class="mb-5 form-floating pb-2"><textarea class="form-control" id="message-1" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div id="success-1"></div>
+                        <div><button class="btn btn-primary btn-xl" id="sendMessageButton-1" type="submit">Send</button></div>
+                    </form>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
     <footer class="text-center footer">
         <div class="container">
             <div class="row">
