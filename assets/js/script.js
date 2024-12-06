@@ -1,11 +1,10 @@
 (function() {
-  "use strict"; // Start of use strict
+  "use strict";
 
   var scrollToTop = document.querySelector('.scroll-to-top');
   
   if (scrollToTop) {
     
-    // Scroll to top button appear
     window.addEventListener('scroll', function() {
       var scrollDistance = window.pageYOffset;
 
@@ -30,8 +29,7 @@
       });
       
       var navbarItems = navbarCollapse.querySelectorAll('a');
-      
-      // Closes responsive menu when a scroll trigger link is clicked
+            
       for (var item of navbarItems) {
         item.addEventListener('click', function (event) {
           collapse.hide();
@@ -39,7 +37,6 @@
       }
     }
 
-    // Collapse Navbar
     var collapseNavbar = function() {
 
       var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
@@ -50,10 +47,8 @@
         mainNav.classList.remove("navbar-shrink");
       }
     };
-    // Collapse now if page is not at top
     collapseNavbar();
-    // Collapse the navbar when page is scrolled
     document.addEventListener("scroll", collapseNavbar);
   }
 
-})(); // End of use strict
+})();
